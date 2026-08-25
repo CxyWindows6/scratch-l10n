@@ -24308,7 +24308,12 @@ export default {
     "tw.settingsModal.fpsHelp.customFramerate": "点击使用 30 或 60 以外的帧率",
     "tw.settingsModal.opf": "每帧更多执行次数 (自定义 OPF)",
     "tw.settingsModal.opfHelp": "在一帧内运行更多次脚本。启用 TurboMode 效果更佳。{customOpsPerFrame}。",
-    "tw.settingsModal.opfHelp.customOpsPerFrame": "点击使用 1 或 2 以外的 OPF 值"
+    "tw.settingsModal.opfHelp.customOpsPerFrame": "点击使用 1 或 2 以外的 OPF 值",
+    "tw.menuBar.themeMode": "界面主题",
+    "tw.menuBar.themeMode.light": "浅色模式",
+    "tw.menuBar.themeMode.dark": "深色模式",
+    "tw.menuBar.themeMode.auto": "跟随系统",
+    "tw.menuBar.accent": "主题色"
   },
   "zh-tw": {
     "gui.alerts.tryAgain": "再試一次",
@@ -24672,6 +24677,11 @@ export default {
     "tw.settingsModal.fpsHelp.customFramerate": "點擊使用 30 或 60 以外的幀率",
     "tw.settingsModal.opf": "每幀更多執行次數 (自訂 OPF)",
     "tw.settingsModal.opfHelp": "在一幀內執行更多次腳本。啟用 TurboMode 效果更佳。{customOpsPerFrame}。",
-    "tw.settingsModal.opfHelp.customOpsPerFrame": "點擊使用 1 或 2 以外的 OPF 值"
+    "tw.settingsModal.opfHelp.customOpsPerFrame": "點擊使用 1 或 2 以外的 OPF 值",
+    "tw.menuBar.themeMode": "介面主題",
+    "tw.menuBar.themeMode.light": "淺色模式",
+    "tw.menuBar.themeMode.dark": "深色模式",
+    "tw.menuBar.themeMode.auto": "跟隨系統",
+    "tw.menuBar.accent": "主題色"
   }
 };
