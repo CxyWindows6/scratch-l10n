@@ -66,3 +66,29 @@ and will increase the patch version.
 
 We are moving away from using the `tx` cli, so the `.tx/config` file will eventually be deprecated.
 -->
+
+## Consuming from scratch-gui (GitHub dependency)
+
+Build artifacts (`locales/` and `dist/`) are committed to this repository so that
+scratch-gui can install this package directly from GitHub instead of the npm registry:
+
+```json
+"@turbowarp/scratch-l10n": "github:CxyWindows6/scratch-l10n#new"
+```
+
+After changing translations or code, rebuild and commit the artifacts:
+
+```bash
+npm install
+npm run build
+git add locales dist
+git commit -m "chore: rebuild translation artifacts"
+git push
+```
+
+Then update the dependency in scratch-gui to pick up the new commit:
+
+```bash
+npm update @turbowarp/scratch-l10n
+```
+

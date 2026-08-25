@@ -1,15 +1,13 @@
-# Mac OS
+﻿# Mac OS
 .DS_Store
 
 # NPM
 /node_modules
 npm-*
 
-# generated locale files
-/locales
-
-# generated build files
-/dist
+# Build artifacts (locales/ and dist/) are intentionally committed so that
+# scratch-gui can install this package directly from GitHub. See "Consuming
+# from scratch-gui" in README.md.
 
 # TW: secret API token
 .tx_token
